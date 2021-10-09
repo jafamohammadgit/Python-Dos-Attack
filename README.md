@@ -6,6 +6,9 @@ Perform your dos attacks easily using a simple Python script.
 
 $ cd Python-Dos-Attack                                                                                                                                                
 $ virtualenv -p python3 venv
+
 $ source venv/bin/activate
+
 $ pip install -r requirements.txt
+
 $ python DDos.py
